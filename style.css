@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0; /*The margin properties are used to create space around elements, outside of any defined borders*/
+    padding: 0; /* The padding properties are used to generate space around an element's content, inside of any defined borders */
+    box-sizing: border-box;  /*The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #191919;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center;     /* Vertically center the items */
+    height: 100vh; 
+    border: #191919;
+}
+
+.container1 {
+    flex: 1;
+    width: 50%;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0.5px solid #191919;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.container1 iframe {
+    border-radius: 10px;
+}
+
+.container2 {
+    flex: 1;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0.4px solid #2F2F2F;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.container2 form {
+    padding-left: 10px;
+}
+
+.input-boxx{
+    padding-left: 30px;
+    
+}
+
+
+.input-boxx input {
+    width: 245px;
+    height: 5px;
+    background: #262626;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 40px;
+    font-size: 12px;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+.input-boxx input::placeholder { /* we use " :: " to style the pseudo element - placeholder */
+    color: #fff;
+}
+
+textarea {
+    border-radius: 40px;
+    border-bottom: 20px;
+    width: 500px;
+    height: 100px;
+    background: #262626;
+    padding-top: 15px;
+    padding-left: 30px;
+    text-decoration: #fff;
+}
+
+.area textarea::placeholder {
+    color: #fff;
+}
+
+.area {
+    padding-left: 30px;
+}
+
+.sub {
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.sub input{
+    border-radius: 40px;
+    width: 90px;
+    height: 40px;
+    background: #262626;
+    color: #ccc;
+}
+
+h1 {
+    padding-left: 40px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-weight: 500;
+}
